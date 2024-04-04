@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ALLTYPECC")
-                await self.one.join_chat("DAXXSUPPORT")
+                await self.one.join_chat("DREAMERS-BOTS")
+                await self.one.join_chat("Chat-Dreamer-bots")
             except:
                 pass
             assistants.append(1)
